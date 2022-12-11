@@ -1,0 +1,236 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+}
+a:hover {
+  color: #174180;
+}
+
+h2,
+h1 {
+  margin: 0;
+  color: #174180;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  max-width: 1445px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 944px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+}
+.header .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header__nav-items {
+  height: 88px;
+  display: flex;
+  border-bottom: 1px solid rgb(130, 130, 130);
+}
+.header__nav-items ul {
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-self: center;
+  list-style-type: none;
+}
+.header__nav-items ul li {
+  color: rgb(130, 130, 130);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto", sans-serif;
+}
+.header__items {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__items-role {
+  color: #174180;
+  font-size: 24px;
+  padding-right: 20px;
+  width: 30%;
+}
+.header__items-name h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.header-avatar img {
+  top: 55px;
+  left: 76px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  object-position: center;
+  object-fit: cover;
+}
+
+.about {
+  padding: 30px 0;
+  background-color: rgb(246, 246, 246);
+}
+.about h2 {
+  padding-bottom: 20px;
+}
+.about .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .wrapper p {
+  width: 400px;
+  text-align: center;
+}
+
+.skills {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.skills h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.skills-icons svg {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.codesample {
+  background-color: rgb(246, 246, 246);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.codesample h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.prop {
+  background-color: #fff;
+}
+.prop .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.prop .wrapper h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.prop .wrapper .languages {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.prop .wrapper .languages .table__languages {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.prop .wrapper .university {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.prop .wrapper .university p {
+  padding: 0 0 10px;
+  margin: 0;
+}
+.prop .wrapper .contacts {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prop .wrapper .contacts ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.prop .wrapper .contacts ul li {
+  padding-bottom: 10px;
+}
+.prop .wrapper .contacts svg {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+  fill: #174180;
+}
+
+.footer {
+  background-color: rgb(246, 246, 246);
+  padding: 30px 0;
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer svg {
+  fill: #174180;
+  width: 32px;
+  height: 32px;
+}
+.footer a {
+  color: #174180;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* code text prettier */
+.code__commet {
+  color: rgb(4, 120, 4);
+}
+.code__variable {
+  color: rgb(240, 4, 4);
+}
+.code__function {
+  color: #174180;
+}
+.code__let {
+  color: rgb(193, 34, 106);
+}/*# sourceMappingURL=style.css.map */
