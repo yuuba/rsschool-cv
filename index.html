@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV HTML</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="wrapper">
+                <nav class="header__nav-items">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#code">Code sample</a></li>
+                        <li><a href="#prop">Education</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="header__items">
+                    <div class="header__items-name">
+                        <h1>Yury Ba</h1>
+                    </div>
+                    <div class="header-avatar">
+                        <img src="./images/avatar.jpg" alt="avatar">
+                    </div>
+                    <p>Student of RsSchool</p>
+
+                </div>
+
+            </div>
+
+        </header>
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h2>About me</h2>
+                <p>
+                    I am a student of the rs school and i want to become a frontend developer in the future.</p>
+                <p>I have a clear,
+                    logical mind with a practical approach to problem-solving and a drive to see things through to
+                    completion.</p>
+                <p>I am eager to learn, I enjoy overcoming challenges. I am a dependable person who is great at
+                    time management.</p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <div class="skills-icons">
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#python-original-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#django-plain"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#flask-original"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#SqlAlchemy"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#selenium-original"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#html5-original-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#css3-plain-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#git-plain"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#github-original-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#docker-plain-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#postgresql-plain-wordmark"></use>
+                    </svg>
+                    <svg class="icon">
+                        <use xlink:href="./images/sprite.svg#linux-original"></use>
+                    </svg>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="codesample" id="code">
+            <div class="wrapper">
+
+                <h2>Code sample</h2>
+                <pre><code><span class="code__commet">// Find Maximum and Minimum Values of a List</span>
+                    <span class="code__variable">let</span> <span class="code__let">min</span> = <span class="code__function">function</span>(<span class="code__let">list</span>){
+                        <span class="code__function">return</span> Math.min(...<span class="code__let">list</span>);}
+                    <span class="code__variable">let</span> <span class="code__let">max</span> = <span class="code__function">function</span>(<span class="code__let">list</span>){
+                        <span class="code__function">return</span> Math.max(...<span class="code__let">list</span>);}</code></pre>
+            </div>
+        </section>
+        <main>
+            <section class="prop" id="prop">
+                <div class="wrapper">
+                    <div class="languages">
+                        <h2>Languages</h2>
+                        <div class="table__languages">
+                            <div class="name__languages">
+                                Russian:
+                            </div>
+                            <div class="level__languages">
+                                Native
+                            </div>
+                        </div>
+                        <div class="table__languages">
+                            <div class="name__languages">
+                                English:
+                            </div>
+                            <div class="level__languages">
+                                A2
+                            </div>
+                        </div>
+                        <div class="table__languages">
+                            <div class="name__languages">
+                                Hebrew:
+                            </div>
+                            <div class="level__languages">
+                                Level B
+                            </div>
+                        </div>
+                    </div>
+                    <div class="university">
+                        <h2>University</h2>
+                        <p>National University
+                            “Yuri Kondratyuk Poltava Polytechnic”</p>
+                        <p>Telecommunications and Radio Engineering</p>
+
+                    </div>
+                    <div class="contacts">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li class="block_urls__data">
+                                <svg class="icon">
+                                    <use xlink:href="./images/sprite.svg#mail-ico"></use>
+                                </svg>
+                                <a href="mailto:yurikbar@gmail.com">yurikbar@gmail.com</a>
+                            </li>
+                            <li class="block_urls__data"><svg class="icon">
+                                    <use xlink:href="./images/sprite.svg#phone-ico"></use>
+                                </svg><a href="tel:+9720510000000">+972-051-000-00-00</a></li>
+                            <li class="block_urls__data">
+                                <svg class="icon">
+                                    <use xlink:href="./images/sprite.svg#placeico"></use>
+                                </svg>
+                                <a href="https://www.google.com/maps/@31.7926381,34.6343427,14z">Israel/Ashdod</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer class="footer" id="contacts">
+            <div class="wrapper">
+                <ul>
+                    <li>
+                        <a href="https://github.com/yuuba" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="./images/sprite.svg#github-original-wordmark"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/users/1048685538711965757" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="./images/sprite.svg#discord"></use>
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rs.school/js" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="./images/sprite.svg#rs"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">2022
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </footer>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
